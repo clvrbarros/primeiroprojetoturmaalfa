@@ -11,12 +11,16 @@ public class PrimeiroProjetoTurmaAlfa {
         int resultado;
         
         //Atribuindo valor as variaveis
-        numeroA = 8;
+        numeroA = 5;
         numeroB = 2;
         
         //Divisão
         resultado = numeroA / numeroB;
         System.out.println("Divisão: " + resultado);
+        
+        //Multiplicação
+        resultado = numeroA * numeroB;
+        System.out.println("Multiplicação: " + resultado);
     }
     
 }
